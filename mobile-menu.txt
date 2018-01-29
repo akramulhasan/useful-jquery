@@ -1,0 +1,11 @@
+(function($){
+   $(document).ready(function () {
+
+
+		$(".mobile-nav-bar").click(function(){
+		    $("#mobile-nav").slideToggle();
+		});
+
+
+   });
+}(jQuery))
